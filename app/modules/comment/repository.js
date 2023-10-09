@@ -5,7 +5,7 @@ const commentsSchema = new Schema({
     type: String,
     require: true,
   },
-  comments: {
+  comment: {
     type: String,
     default: "",
     maxLength: 250,

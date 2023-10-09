@@ -1,5 +1,12 @@
 const { Router } = require("express");
 
+const {
+  create,
+  deletePost,
+  removeComment,
+  newDescription,
+} = require("./controller");
+
 const routerPost = Router({ mergeParams: true });
 
 routerPost.post("/", create);
