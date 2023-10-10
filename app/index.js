@@ -1,7 +1,7 @@
 const bodyParser = require("body-parser");
 const express = require("express");
-const { PORT } = require("./config");
-const router = require();
+const { PORT } = require("./config/index");
+const router = require("./router");
 
 const app = express();
 

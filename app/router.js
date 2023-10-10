@@ -1,5 +1,5 @@
-const { routerPost } = require("./modules/connections");
-const { routeComment } = require("./modules/connections");
+const routerPost = require("./modules/post/router");
+const routeComment = require("./modules/comment/router");
 
 module.exports = (app) => {
   app.use("/post", routerPost);
